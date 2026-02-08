@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Card - Modern</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #eef1f7;
+      padding: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .site-header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+      background: #222;
+      color: white;
+      font-size: 22px;
+      font-weight: bold;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    .product-card {
+      background: #fff;
+      width: 350px;
+      padding: 16px;
+      border-radius: 10px;
+      border: 1px solid #dfe3ee;
+      margin-top: 80px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: 0.3s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+    }
+    .product-image {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      margin-bottom: 12px;
+      transition: 0.3s ease;
+    }
+    .product-card:hover .product-image {
+      transform: scale(1.03);
+    }
+    .product-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .product-desc {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 12px;
+    }
+    .price-row {
+      margin-bottom: 15px;
+    }
+    .price {
+      font-size: 22px;
+      font-weight: bold;
+      color: #0a7b37;
+      margin-right: 10px;
+    }
+    .old-price {
+      color: #888;
+      text-decoration: line-through;
+    }
+    .add-cart {
+      width: 100%;
+      padding: 12px;
+      background: #0066cc;
+      border: none;
+      color: white;
+      border-radius: 6px;
+      font-size: 17px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .add-cart:hover {
+      background: #004c99;
+      transform: scale(1.02);
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">PRIMIUM Watch Collections</header>
+
+  <section class="product-card">
+    <img class="product-image" 
+      src="data:https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSjI-Lgc3llclnqCRHVJFDPF8Zkc2dv9eB3KUhKcGgX-cucfG9gKle5aIjym3B-j8QFiAzpA9pMDQyidwkBkmugC0wrZ68QYGwiYF-csP01gerKAFX64KzJbw<h2 class="product-title">Classic Watches For Mens</h2>
+     <h2 class="product-title">Classic Watches For Mens</h2>
+    <p class="product-desc">
+      PREMIUM WRIST WATCHES.
+    </p>
+
+    <div class="price-row">
+      <span class="price">₹1299</span>
+   </div>
+
+    <button class="add-cart">Add to Cart</button>
+  </section>
+
+</body>
+</html>
